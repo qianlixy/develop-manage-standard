@@ -1,42 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T10:04:10.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nGQh7XYA0s3uTFsZTS3p" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T03:32:45.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NyQQEk-4nBdu2ptwh85U" version="14.0.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FormDefinitionAPI&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get(fdId:Long):FormDefinitionDTO&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ post(definition:FormDefinitionDTO)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ put(definition:FormDefinitionDTO)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(fdid:Long)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FormDefinitionAPI&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get(fdId:Long):FormDefinitionDTO&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ post(definition:FormDefinitionDTO)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ put(definition:FormDefinitionDTO)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(fdid:Long)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="112.5" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FormDefinitionDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fdId:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- state:string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FormDefinitionDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fdId:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- state:string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="130" width="160" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-8" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZHvLemWGNXPJgb7jg12C-1" target="ZHvLemWGNXPJgb7jg12C-6">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-8" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZHvLemWGNXPJgb7jg12C-1" target="ZHvLemWGNXPJgb7jg12C-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="350" as="sourcePoint" />
             <mxPoint x="500" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FormFieldDefinitionDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ffdid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fdid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fftid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fftName:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- parentId:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- enName:string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FormFieldDefinitionDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ffdid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fdid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fftid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fftName:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- parentId:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- enName:string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="340" width="160" height="147.5" as="geometry" />
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FormFieldDefinitionAPI&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ post(definition:FormFieldDefinitionDTO)&lt;br&gt;+ put(definition:FormFieldDefinitionDTO)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(fdid:long):List&amp;lt;FormFieldDefinitionDTO&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ patch(op:PatchOperation)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FormFieldDefinitionAPI&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ post(definition:FormFieldDefinitionDTO)&lt;br&gt;+ put(definition:FormFieldDefinitionDTO)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(fdid:long):List&amp;lt;FormFieldDefinitionDTO&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ patch(op:PatchOperation)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="677.5" y="343.75" width="262.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZHvLemWGNXPJgb7jg12C-12" target="ZHvLemWGNXPJgb7jg12C-10">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZHvLemWGNXPJgb7jg12C-12" target="ZHvLemWGNXPJgb7jg12C-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="430" y="505" as="sourcePoint" />
             <mxPoint x="590" y="505" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-14" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZHvLemWGNXPJgb7jg12C-6" target="ZHvLemWGNXPJgb7jg12C-10">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-14" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZHvLemWGNXPJgb7jg12C-6" target="ZHvLemWGNXPJgb7jg12C-10" edge="1">
           <mxGeometry x="-0.6429" y="10" relative="1" as="geometry">
             <mxPoint x="260" y="540" as="sourcePoint" />
             <mxPoint x="440" y="340" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZHvLemWGNXPJgb7jg12C-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FormFieldTypeDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ffdid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ffid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZHvLemWGNXPJgb7jg12C-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FormFieldTypeDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ffdid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ffid:long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="570" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DXCaNpn9fx6zga7airPJ" name="表单用例图">
+    <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-0" />
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-1" parent="bEwnLJIEmo-IpYCWaJ4P-0" />
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-2" target="bEwnLJIEmo-IpYCWaJ4P-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-2" value="开发" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="140" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-8" target="bEwnLJIEmo-IpYCWaJ4P-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-3" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="140" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-8" value="经销商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="140" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-9" target="bEwnLJIEmo-IpYCWaJ4P-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-9" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="795" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-15" target="bEwnLJIEmo-IpYCWaJ4P-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEwnLJIEmo-IpYCWaJ4P-19">
+          <mxGeometry x="-0.325" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-15" value="字段类型定义" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="294" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-18" target="bEwnLJIEmo-IpYCWaJ4P-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-23" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEwnLJIEmo-IpYCWaJ4P-22">
+          <mxGeometry x="0.4" y="-2" relative="1" as="geometry">
+            <mxPoint x="-23" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-18" value="字段约束定义" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="520" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-21" value="字段约束参数定义" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="750" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-25" value="配置表单" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="280" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-30" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-27" target="bEwnLJIEmo-IpYCWaJ4P-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEwnLJIEmo-IpYCWaJ4P-30">
+          <mxGeometry x="0.2909" y="1" relative="1" as="geometry">
+            <mxPoint x="-17" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-32" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-27" target="bEwnLJIEmo-IpYCWaJ4P-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEwnLJIEmo-IpYCWaJ4P-32">
+          <mxGeometry x="-0.2804" y="-1" relative="1" as="geometry">
+            <mxPoint x="21.999999999999996" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-27" value="配置字段" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="280" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-29" value="配置字段约束" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="520" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-31" value="配置初始数据" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="520" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bEwnLJIEmo-IpYCWaJ4P-1" source="bEwnLJIEmo-IpYCWaJ4P-3" target="bEwnLJIEmo-IpYCWaJ4P-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="540" as="sourcePoint" />
+            <mxPoint x="304" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEwnLJIEmo-IpYCWaJ4P-37" value="提交表单" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="bEwnLJIEmo-IpYCWaJ4P-1">
+          <mxGeometry x="520" y="490" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
